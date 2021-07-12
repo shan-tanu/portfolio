@@ -17,11 +17,15 @@ const Contact = () => {
         details="Interested to collaborate ? Feel free to drop me an e-mail. "
       />
       <div className="contact-form-container">
-        <form className="contact-form">
+        <form
+          action="https://formspree.io/f/xeqvzyjr"
+          method="POST"
+          className="contact-form"
+        >
           <input
             type="email"
             placeholder="Your email."
-            name="email"
+            name="_replyto"
             className="input-box email-input"
           />
           <textarea
