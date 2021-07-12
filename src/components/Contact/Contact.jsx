@@ -42,17 +42,21 @@ const Contact = () => {
 
       {/* social icons */}
       <div className="social-icons-container">
-        <a href="https://github.com/shan-tanu"></a>
-        <img src={github} alt="social" className="social-icon" />
+        <a href="https://github.com/shan-tanu">
+          <img src={github} alt="social" className="social-icon" />
+        </a>
 
-        <a href="https://www.linkedin.com/in/shantanu-mysore-gopinath-150a7b16a/"></a>
-        <img src={linkedin} alt="social" className="social-icon" />
+        <a href="https://www.linkedin.com/in/shantanu-mysore-gopinath-150a7b16a/">
+          <img src={linkedin} alt="social" className="social-icon" />
+        </a>
 
-        <a href="https://www.instagram.com/___s_m_g/"></a>
-        <img src={instagram} alt="social" className="social-icon" />
+        <a href="https://www.instagram.com/___s_m_g/">
+          <img src={instagram} alt="social" className="social-icon" />
+        </a>
 
-        <a href="https://shan-tanu.github.io/portfolio/"></a>
-        <img src={web} alt="social" className="social-icon" />
+        <a href="https://shan-tanu.github.io/portfolio/">
+          <img src={web} alt="social" className="social-icon" />
+        </a>
       </div>
 
       <FooterLink phrase="Read more " toAddress="/about" link="about me." />
